@@ -15,4 +15,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::apiResource('asociados', \App\Http\Controllers\Api\AsociadoController::class);
+Route::apiResource('asociados', \App\Http\Controllers\Api\AsociadoController::class)
+    ->middleware('auth:sanctum');
+
+Route::post('login',
+    [\App\Http\Controllers\Api\LoginController::class, 'login']
+);
