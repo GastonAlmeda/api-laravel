@@ -92,52 +92,6 @@ POST: http://localhost:3000/public/api/asociados
 
 ```
 GET: http://localhost:3000/public/api/asociados
-
-{
-    "id": 1,
-    "nombre": "Ryan",
-    "apellido": "Doyle",
-    "numAsociado": 13,
-    "fechaIngreso": "1986-10-04 05:53:30",
-    "fechaBaja": "1984-05-01 11:40:20",
-    "created_at": "2021-02-09T03:27:30.000000Z",
-    "updated_at": "2021-02-09T03:27:30.000000Z"
-},
-{
-    "id": 2,
-    "nombre": "luis",
-    "apellido": "Messi",
-    "numAsociado": 99,
-    "fechaIngreso": "1989-10-23 22:34:06",
-    "fechaBaja": "2020-08-02 00:00:00",
-    "created_at": "2021-02-09T03:27:30.000000Z",
-    "updated_at": "2021-02-09T03:28:13.000000Z"
-},
-{
-    "id": 3,
-    "nombre": "Filiberto",
-    "apellido": "Conroy",
-    "numAsociado": 3,
-    "fechaIngreso": "1988-11-26 09:41:49",
-    "fechaBaja": null,
-    "created_at": "2021-02-09T03:27:30.000000Z",
-    "updated_at": "2021-02-09T03:27:30.000000Z"
-}
-```
-
-```
-GET: http://localhost:3000/public/api/asociados/2
-{
-    "id": 2,
-    "nombre": "luis",
-    "apellido": "Messi",
-    "numAsociado": 99,
-    "fechaIngreso": "1989-10-23 22:34:06",
-    "fechaBaja": "2020-08-02 00:00:00",
-    "created_at": "2021-02-09T03:27:30.000000Z",
-    "updated_at": "2021-02-09T03:28:13.000000Z"
-}
-
 ```
 
 * _PUT: Petición para realizar modificaciones sobre los regristos. Contiene un parámetro obliglatorio que corresponde al id del registro que se desea modificar, en este caso es es id = 4._
